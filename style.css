@@ -1,1 +1,25 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.container {
+  height: 960px;
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  box-sizing: border-box;
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+}
+
+.hover {
+  background-color: black;
+}
