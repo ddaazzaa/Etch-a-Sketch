@@ -1,9 +1,25 @@
 body {
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
+}
+
+h1 {
+  font-family: "Happy Monkey", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 75px;
+}
+
+.grid-size-button {
+  border: none;
+  background-color: #3e4346;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .container {
@@ -11,15 +27,17 @@ body {
   width: 960px;
   display: flex;
   flex-wrap: wrap;
+  gap: 0;
+  margin: 0;
 }
 
 .box {
   box-sizing: border-box;
-  height: 60px;
-  width: 60px;
   border: 1px solid black;
+  gap: 0;
+  margin: 0;
 }
 
 .hover {
-  background-color: black;
+  background-color: #3e4346;
 }
